@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import "sanitize.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -11,7 +12,7 @@ const router = createBrowserRouter([
 	{
 		path: "/sample",
 		element: <div>Sample</div>,
-	}
+	},
 ]);
 
 // biome-ignore lint/style/noNonNullAssertion: There's always a root element
