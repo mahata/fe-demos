@@ -3,15 +3,17 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import "sanitize.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Sample from "./Sample.tsx";
+import Home from "./assets/Home.tsx";
 
 const router = createBrowserRouter([
 	{
 		path: "/",
-		element: <div>main</div>,
+		element: <Home />,
 	},
 	{
 		path: "/sample",
-		element: <div>Sample</div>,
+		element: <Sample />,
 	},
 ]);
 
