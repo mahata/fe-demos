@@ -6,6 +6,9 @@ export default function Home() {
 			<li>
 				<Link to="/sample">Sample</Link>
 			</li>
+			<li>
+				<Link to="/bottom-drawer">Bottom Drawer</Link>
+			</li>
 		</ul>
 	);
 }
