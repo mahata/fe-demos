@@ -5,16 +5,11 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import BottomDrawer from "./BottomDrawer.tsx";
 import Home from "./Home.tsx";
-import Sample from "./Sample.tsx";
 
 const router = createBrowserRouter([
 	{
 		path: "/",
 		element: <Home />,
-	},
-	{
-		path: "/sample",
-		element: <Sample />,
 	},
 	{
 		path: "/bottom-drawer",
